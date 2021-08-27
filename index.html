@@ -433,11 +433,10 @@
         $('#next_due_date').html(nextYear);
         $('#to_date').html(nextYear);
 
-        $('#propose_date_1').html(today);
-        $('#propose_date_2').html(change_date_format(add_days_to_current_date(90)));
-        $('#propose_date_3').html(change_date_format(add_days_to_current_date(180)));
-        $('#propose_date_4').html(change_date_format(add_days_to_current_date(270)));
-        // $('#propose_date_3').html(add_days_to_current_date(30));
+        $('#propose_date_1').html(change_date_format(add_days_to_current_date(90)));
+        $('#propose_date_2').html(change_date_format(add_days_to_current_date(180)));
+        $('#propose_date_3').html(change_date_format(add_days_to_current_date(270)));
+        $('#propose_date_4').html(change_date_format(add_days_to_current_date(365)));
 
 
     })
